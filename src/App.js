@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import PaymentPortOne from './screens/PaymentPortOne';
+import PaymentPortTwo from './screens/PaymentPortTwo';          
+import PaymentPortThree from './screens/PaymentPortThree';
+import Profile from './screens/Profile';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Profile} />
+        <Route path="/payment-port-one" component={PaymentPortOne} />
+        <Route path="/payment-port-two" component={PaymentPortTwo} />
+        <Route path="/payment-port-three" component={PaymentPortThree} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
