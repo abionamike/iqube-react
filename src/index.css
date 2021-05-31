@@ -583,6 +583,10 @@ a {
     width: 80%;
   }
 
+  .content_three {
+    width: 300px;
+  }
+
   .heading_container {
     padding: 20px 35px;
   }
@@ -604,9 +608,9 @@ a {
   }
 
   .main_three {
-    width: 70%;
+    width: 100%;
     top: 50px;
-    padding: 0 50px;
+    padding: 0 25px;
     box-shadow: none;
     border-radius: 0px;
   }
