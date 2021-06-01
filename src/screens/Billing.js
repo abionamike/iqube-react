@@ -13,7 +13,7 @@ const Billing = () => {
         </defs>
       </svg>
       <div className="content_one">
-        <h2>Complete your purchase</h2>
+        <h2>Complete your Purchase</h2>
         <div className="headings_one">
           <div>Personal Info</div>
           <div className="colored">Billing Info</div>
