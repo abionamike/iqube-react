@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const PaymentPortOne = () => {
+const Billing = () => {
   return (
     <div className="container">
       <svg className="svg" viewBox='0 0 1440 881' fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@ const PaymentPortOne = () => {
           </section>
         </main>
         <div className="cta_one">
-          <Link to="/payment-port-two" className="button">Next</Link>
+          <Link to="/purchase" className="button">Next</Link>
           <Link to="/" className="cancel">Cancel Payment</Link>
         </div>
       </div>
@@ -57,4 +57,4 @@ const PaymentPortOne = () => {
   )
 }
 
-export default PaymentPortOne;
+export default Billing;

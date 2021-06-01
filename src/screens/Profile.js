@@ -88,7 +88,7 @@ const Profile = () => {
           </section>
         </main>
         <div className="profile_cta">
-          <Link to="/payment-port-one" className="button">Next</Link>
+          <Link to="/billing" className="button">Next</Link>
           <Link to="/" className="cancel">Cancel Payment</Link>
         </div>
       </div>

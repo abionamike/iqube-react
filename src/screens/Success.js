@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const PaymentPortThree = () => {
+const Success = () => {
   return (
     <div className="container_three">
       <svg className="svg" viewBox='0 0 1440 881' fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,4 +26,4 @@ const PaymentPortThree = () => {
   )
 }
 
-export default PaymentPortThree;
+export default Success;
